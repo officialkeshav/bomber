@@ -4,4 +4,7 @@ echo  -ne "enter Your number :" |lolcat
 read num
 cp api.sh app.sh
 sed -i s/€tor/$num/g app.sh
+while true
+do
 bash app.sh
+done
