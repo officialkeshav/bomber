@@ -1,5 +1,5 @@
 
-# MASTER-BOMBER2.O
+# BOMBER
 
 Bomber is a Bash code Which you can harm someone with OTP. By using this tool You Can Send  huge amount of sms  call to your friends.
 
