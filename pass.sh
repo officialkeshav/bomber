@@ -22,9 +22,6 @@ echo -e '\e[94mX  \...X     @#%,.@   ----------------    @ @ 00 0 xxxxxxxxx
                 echo -e '\e[93m CODED BY KESHAV'
 
 echo  -ne "\e[92m Enter Your number :-" |lolcat
-figlet bomber |lolcat
-echo -e "\e[91m coded by keshav"
-echo  -ne "enter Your number :" |lolcat
 read num
 cp api.sh app.sh
 sed -i s/€tor/$num/g app.sh
