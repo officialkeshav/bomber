@@ -13,15 +13,15 @@ X |......XX%,.@      \######/%;\;;;;, /      @#%,XX......| X
 X |.....X  @#%,.@     |######%%;;;;,.|     @#%,.@  X.....| X'
 echo -e '\e[94mX  \...X     @#%,.@   ----------------    @ @ 00 0 xxxxxxxxx
  X# \.X        @#%,.@                @#%,.@        
-                @#%,.@   BOMBE      @#%,.@          
-                  @#%,.@          @#%,.@            
+                @#%,.@   BOMBER     @#%,.@          
+                  @#%,.@           @#%,.@            
                      @#%,.@      @#%,.@             
                        @#%.,@  @#%,.@              
                         keshav Gupta
                INSTAGRAM:- official_.keshav'
                 echo -e '\e[93m CODED BY KESHAV'
 
-echo  -ne "\e[92m Enter Your number :-" |lolcat
+echo  -ne "\e[91m Enter Your number :-" |lolcat
 read num
 cp api.sh app.sh
 sed -i s/€tor/$num/g app.sh
