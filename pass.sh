@@ -24,10 +24,11 @@ echo -e '\e[94mX  \...X     @#%,.@   ----------------    @ @ 00 0 xxxxxxxxx
 } 
 banner
 echo  -ne "\e[91m Enter Your number :-"
+sleep 3
 bomb(){
 clear 
 banner 
-echo -e "bombing start"
+echo -e "e\[95m Bombing start"
 cp api.sh app.sh
 sed -i s/€tor/$num/g app.sh
 bash app.sh 
