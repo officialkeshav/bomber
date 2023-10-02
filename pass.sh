@@ -23,7 +23,7 @@ echo -e '\e[94mX  \...X     @#%,.@   ----------------    @ @ 00 0 xxxxxxxxx
                 echo -e '\e[93m CODED BY KESHAV'
 } 
 banner
-echo  -ne "\e[91m Enter Your number :-" |lolcat
+echo  -ne "\e[91m Enter Your number :-"
 bomb(){
 clear 
 banner 
