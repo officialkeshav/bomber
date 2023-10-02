@@ -42,7 +42,7 @@ sleep 3
 bomb(){
 clear 
 banner 
-echo -e "e\[95m Bombing start"
+echo -e "\e[95m Bombing start"
 cp api.sh app.sh
 sed -i s/€tor/$num/g app.sh
 bash app.sh 
