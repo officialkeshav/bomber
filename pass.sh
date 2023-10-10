@@ -42,7 +42,7 @@ bomb(){
 clear 
 banner 
 echo -e "\e[95m Bombing start"
-cp api.sh app.sh
+cp api1.sh app.sh
 sed -i s/€tor/$num/g app.sh
 bash app.sh 
 con
