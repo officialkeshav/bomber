@@ -31,18 +31,18 @@ echo -e '\e[91m
 ─────────────██████───██████
 ──────────────████─────████
 
-─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────────────────
                                          INSTAGRAM:- official_.keshav'
                                          echo -e '\e[93m CODED BY KESHAV'
 } 
 banner
 echo  -ne "\e[91m Enter Your number :-"
-sleep 3
+sleep 5
 bomb(){
 clear 
 banner 
 echo -e "\e[95m Bombing start"
-cp api1.sh app.sh
+cp api.sh app.sh
 sed -i s/€tor/$num/g app.sh
 bash app.sh 
 con
