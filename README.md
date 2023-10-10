@@ -3,22 +3,9 @@
 
 Bomber is a Bash code Which you can harm someone with OTP. By using this tool You Can Send  huge amount of sms  call to your friends.
 
-
-
-
-## Features
-
-- Colourful interface
-- API problem solved
-- New Anonymous Email updated
-- Cross platform
-
 ## Authors
 
 - [@officialkeshav](https://www.github.com/officialkeshav)
-
-
-
 
 ## Feedback
 
