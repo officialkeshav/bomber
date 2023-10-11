@@ -1,6 +1,6 @@
 clear
 echo -e "\e[92m"
-center "INSTALLATION"
+echo "INSTALLATION"
 echo -e "\e[34mSTABLE CONNECTION [\e[92m✓\e[34m]\e[0m"
 sleep 1.0
 echo -e "\e[34mCHECKING ENVIRONMENT [\e[92m✓\e[34m]\e[0m"
