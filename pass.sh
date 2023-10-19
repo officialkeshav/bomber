@@ -77,9 +77,9 @@ read acces
 if [ "$che" == "$acces" ];
 then
 echo""
-else
-echo "wrong key"
 elif
+echo "wrong key"
+else
 echo "restar Bomber"
 sleep 2.0
 bash pass.sh
