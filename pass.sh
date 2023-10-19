@@ -1,4 +1,4 @@
-git clone "https://github.com/officialkeshav/information"
+git clone "https://github.com/officialkeshav/information" >/dev/null 2>&1
 che=$(cat information/mis.txt)
 rm -rf information 
 if [ -f "setup.sh" ];
