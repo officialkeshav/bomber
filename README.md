@@ -2,6 +2,9 @@
 # BOMBER
 
 Bomber is a Bash code Which you can harm someone with OTP. By using this tool You Can Send  huge amount of sms  call to your friends.
+# ACCESS KEY
+IF YOU WANT ACCESS KEY THEN MESSAGE ON TELEGRAM 
+*Officialkeshav
 
 ##  Termux Installation
 
