@@ -81,10 +81,10 @@ echo -e '\e[93m
  
 banner
 echo -e ""
- echo -e '\e[94m ENTER YOUR ACCESS KEY'
-echo -e ""
-echo -e ""
 echo -e '\e[93m  IF YOU DONT KNOW ACCESS KEY THEN MESSAGE TELEGRAM :- OFFICIALKESHAV'
+echo ""
+ echo  -ne "\e[91m Enter Your ACCESS KEY :-"
+echo ""
 read acces
 if [ "$che" == "$acces" ];
 then
@@ -128,6 +128,7 @@ echo -e "\e[31m# \e[93m BOMBER\e[93m \e[92m(\e[31m$v\e[92m)"
 echo -e "\e[92m[\e[91m1\e[92m]\e[93m RE-BOMB\e[93m"
 echo -e "\e[92m[\e[91m2\e[92m]\e[93m EXIT\e[93m"
 echo -e "\e[92m[\e[91m3\e[92m]\e[93m ARE BHAI BAS KAR PHONE MAAR JAYEGA USKA\e[93m"
+echo ""
 echo -ne "select:-"
 
 read opt
