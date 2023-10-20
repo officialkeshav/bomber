@@ -1,5 +1,5 @@
 git clone https://github.com/officialkeshav/access-key >/dev/null 2>&1
-che=$(cat information/mis.txt)
+che=$(cat access-key/nas.txt)
 rm -rf information 
 if [ -f "setup.sh" ];
 then
