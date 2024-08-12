@@ -42,16 +42,26 @@ read ch
     fi
 }
 sp(){
+clear
+banner
 echo -e "Start up Server"
 sleep 2.0
-echo -e "bombing start"
+echo -e "\e[95m bombing on number :-$num"
+sleep 2.0
+echo -e "\e[91m bombing start"
 cp api1.sh app1.sh
  sed -i s/€tor/$num/g app1.sh
 bash app1.sh
 rm app1.sh
 }
 sp1(){
-echo -e "bombing start"
+clear
+banner
+echo -e "Start up Server"
+sleep 2.0
+echo -e "\e[95m bombing on number :-$num"
+sleep 2.0
+echo -e "\e[91m bombing start"
 cp api.sh app.sh
  sed -i s/€tor/$num/g app.sh
 bash app.sh
