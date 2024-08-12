@@ -41,6 +41,7 @@ read ch
     fi
 }
 sp(){
+echo -e "Start up Server"
 echo -e "bombing start"
 cp api1.sh app1.sh
  sed -i s/€tor/$num/g app1.sh
@@ -58,7 +59,7 @@ rm app.sh
 
 banner
 echo -e ""
- echo -e '\e[93m  IF YOU DONT KNOW ACCESS KEY THEN MESSAGE TELEGRAM :- OFFICIALKESHAV'
+ echo -e '\e[93m  IF YOU DONT KNOW ACCESS KEY THEN MESSAGE TELEGRAM :- thekeshavgupta'
 echo -e ""
 echo -e ""
 echo -ne "\e[94m ENTER YOUR ACCESS KEY :-"
