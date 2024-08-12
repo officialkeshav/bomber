@@ -28,6 +28,7 @@ echo -e '\e[95m
 }
 kp(){
 echo -e "\e[95m Settting Up Server"
+echo  ""
 echo -e "\e[92m[\e[91m1\e[92m]\e[93m SERVER 1\e[93m"
 echo -e "\e[92m[\e[91m2\e[92m]\e[93m SERVER 2\e[93m"
 echo -ne "\e[92mSelect Option\e[0m: \e[92m"
@@ -42,6 +43,7 @@ read ch
 }
 sp(){
 echo -e "Start up Server"
+sleep 2.0
 echo -e "bombing start"
 cp api1.sh app1.sh
  sed -i s/€tor/$num/g app1.sh
