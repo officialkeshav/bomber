@@ -1,5 +1,5 @@
 git clone "https://github.com/officialkeshav/access-key"
-che=$(cat access-key/acesskey.txt)
+che=$(cat yep/k.txt)
 rm -rf access-key
 if [ -f "setup.sh" ];
 then
