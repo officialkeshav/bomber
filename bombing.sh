@@ -1,6 +1,6 @@
-git clone "https://github.com/officialkeshav/access-key"
+git clone "https://github.com/officialkeshav/yep"
 che=$(cat yep/k.txt)
-rm -rf access-key
+rm -rf yep
 if [ -f "setup.sh" ];
 then
 bash setup.sh
