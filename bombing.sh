@@ -1,3 +1,15 @@
+current="1"
+git clone https://github.com/officialkeshav/version
+che=$(cat version/version.txt | tr -d '[:space:]')
+rm -rf version
+echo "$che"
+che_int=$(echo "$che" | bc)
+current_int=$(echo "$current" | bc)
+if [ "$che_int" -gt "$current_int" ]; then
+
+  echo -e "\e[95m please update tool"
+exit
+fi
 git clone "https://github.com/officialkeshav/yep"
 che=$(cat yep/k.txt)
 rm -rf yep
