@@ -24,7 +24,7 @@ sleep 1.0
 echo -e "\e[92m"
 echo  "LAUNCHING BOMBER"
 echo -e "\e[34mFINALIZING BOMBER [\e[92m✓\e[34m]\e[0m"
-sleep 2.0
+sleep 1.0
 echo -e "\e[34mLAUNCHING.....[\e[92m✓\e[34m]\e[0m"
-sleep 2.0
+sleep 1.0
 rm $HOME/bomber/setup.sh >/dev/null 2>&1
