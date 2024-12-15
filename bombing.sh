@@ -1,4 +1,4 @@
-current="2"
+current="3"
 git clone https://github.com/officialkeshav/version
 che=$(cat version/version.txt | tr -d '[:space:]')
 rm -rf version
