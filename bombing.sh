@@ -20,22 +20,33 @@ rm setup.sh
 fi
 clear
 banner(){
-echo -e '\e[95m
-                                                              /\
-                                                             //\\\   
-                                                            //  \\\
-                                                           //    \\\'
-                                                        echo -e '\e[91m
-                                                          // --|-- \\
-                                                         //  (0 0)  \\
-                                                         \\_ / V \_ //
-                                                            //   \\\
-                                                           //     \\\
-                                 
+echo -e '\e[91m
+   @@@@@                                        @@@@@
+  @@@@@@@                                      @@@@@@@
+  @@@@@@@           @@@@@@@@@@@@@@@            @@@@@@@
+   @@@@@@@@       @@@@@@@@@@@@@@@@@@@        @@@@@@@@
+       @@@@@     @@@@@@@@@@@@@@@@@@@@@     @@@@@
+         @@@@@  @@@@@@@@@@@@@@@@@@@@@@@  @@@@@
+           @@  @@@@@@@@@@@@@@@@@@@@@@@@@  @@ '
+echo -e '\e[93m
+               @@@@@@@    @@@@@@    @@@@@@
+               @@@@@@      @@@@      @@@@@
+               @@@@@@  @   @@@@   @  @@@@@
+                @@@@@@    @@@@@@    @@@@@
+                @@@@@@@@@@@  @@@@@@@@@@
+                 @@@@@@@@@@  @@@@@@@@@  
+               @@   @@@@@@@@@@@@@@@@@   @@
+             @@@@  @@@@ @ @ @ @ @@@@  @@@@
+            @@@@@   @@@ @ @ @ @ @@@   @@@@@
+          @@@@@      @@@@@@@@@@@@@      @@@@@
+        @@@@          @@@@@@@@@@@          @@@@
+     @@@@@              @@@@@@@              @@@@@
+    @@@@@@@                                 @@@@@@@
+     @@@@@                                   @@@@@
 ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
                                          INSTAGRAM:- official_.keshav'
-                                          echo -e '\e[93m CODED BY KESHAV'
+                                          echo -e '\e[94m CODED BY KESHAV'
 
 }
 kp(){
@@ -57,9 +68,10 @@ sp(){
 clear
 banner
 echo -e "Start up Server"
-sleep 5.0
+sleep 3.0
 echo -e "\e[95m bombing on number :-$num"
-sleep 5.0
+echo -e "\e[94m wait bombing initiate"
+sleep 3.0
 echo -e "\e[91m bombing start"
 cp api1.sh app1.sh
  sed -i s/€tor/$num/g app1.sh
@@ -70,9 +82,9 @@ sp1(){
 clear
 banner
 echo -e "Start up Server"
-sleep 5.0
+sleep 2.0
 echo -e "\e[95m bombing on number :-$num"
-sleep 5.0
+sleep 2.0
 echo -e "\e[91m bombing start"
 cp api.sh app.sh
  sed -i s/€tor/$num/g app.sh
@@ -92,24 +104,24 @@ read acces
 if [ "$che" == "$acces" ];
 then
 echo""
-sleep 5.0
+sleep 3.0
 else
-sleep 5.0
+sleep 3.0
 echo "wrong key"
-sleep 5.0
+sleep 3.0
 bash bombing.sh
 
 fi
-sleep 5.0
+sleep 3.0
 clear
 banner
 echo  -ne "\e[91m Enter Your number :-"
-sleep 5.0
+sleep 3.0
 
 bomb(){
 clear 
 banner 
-sleep 5.0
+sleep 10.0
 if [ "$method" == "true" ];
 then
 kp
